@@ -1,0 +1,32 @@
+{
+  "name": "company-management-backend",
+  "version": "1.0.0",
+  "description": "company managment backend Nodejs/Express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint **/*.js --ignore-pattern internals/scripts --ignore-path .gitignore",
+    "lint:fix": "npm run lint --fix",
+    "lint:watch": "npm run lint --watch",
+    "validate": "npm run lint"
+  },
+  "author": "sahil sutariya",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.0",
+    "buffer-image-size": "^0.6.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.1",
+    "generate-password": "^1.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.6",
+    "mongoose-lean-virtuals": "^0.9.1",
+    "nodemon": "^2.0.19",
+    "sharp": "^0.31.2",
+    "validator": "^13.7.0"
+  }
+}
